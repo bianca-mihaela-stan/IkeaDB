@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="224B5060-921F-26D0-E907-9668B520E91C" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="DISCOUNTURI_PRODUSE">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>DISCOUNTURI_PRODUSE</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:40 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DISCOUNT_ID" id="38839C47-0F37-CED9-A14B-64C6FF7F1D7C">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>DISCOUNTURI_PRODUSE</sourceObjSchema>
+<sourceObjName>DISCOUNT_ID</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DB20ECA-6632-5278-5573-042FCF9667FE" referredColumn="0569281A-DD36-C235-2506-C01ECA9FC78F"/>
+</associations>
+</Column>
+<Column name="PRODUS_ID" id="98AED36A-C09B-DA9F-FE61-121D0B3AF841">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>DISCOUNTURI_PRODUSE</sourceObjSchema>
+<sourceObjName>PRODUS_ID</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CCC27B6-452B-C390-578F-F1AE096472EE" referredColumn="9C31D2B1-5F04-BA8D-5049-C2742724698E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD6B1FFA-DB26-3E44-AD37-ED91ECFD1EA4" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="DISCOUNTURI_PRODUSE_PK">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>SYS_C007608</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:42 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38839C47-0F37-CED9-A14B-64C6FF7F1D7C"/>
+<colUsage columnID="98AED36A-C09B-DA9F-FE61-121D0B3AF841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BA72445-B391-97FF-D583-7BF2E13D628A" name="FK1_DISCOUNTURI_PRODUSE">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38839C47-0F37-CED9-A14B-64C6FF7F1D7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B42D6F54-0E26-A3F6-CA71-623ADF2D3A8B" name="FK2_DISCOUNTURI_PRODUSE">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98AED36A-C09B-DA9F-FE61-121D0B3AF841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

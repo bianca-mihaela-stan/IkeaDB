@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A01B4BE-0D9B-C3FE-9961-885CD005E194" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="RAFTURI">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>RAFTURI</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:40 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RAFT_ID" id="75384B45-581F-E14F-9514-7A6BE366B03F">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>RAFTURI</sourceObjSchema>
+<sourceObjName>RAFT_ID</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMAR" id="9A8EDAE8-15C2-09FD-7A0A-DAAB9B5F8904">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>RAFTURI</sourceObjSchema>
+<sourceObjName>NUMAR</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAION_ID" id="A5EE79AD-F6B0-BEA8-0C82-BA8D2A8BA99D">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>RAFTURI</sourceObjSchema>
+<sourceObjName>RAION_ID</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5ECD9D1-2676-C272-E25F-7BE586C77466" referredColumn="1EAE0B3A-2B8D-9EEF-5E9C-D8F620437ED0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99CEB649-F722-7B45-15A3-D73DBD92AF46" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="RAFTURI_PK">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>SYS_C007605</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:42 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75384B45-581F-E14F-9514-7A6BE366B03F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7493FC52-61F8-9665-D2C4-9A3E8DD4CC38" name="FK1_RAFTURI">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5EE79AD-F6B0-BEA8-0C82-BA8D2A8BA99D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

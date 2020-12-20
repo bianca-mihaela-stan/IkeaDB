@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="759BF8CC-AFDD-1A30-50E1-BF18C096AC75" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="DEPARTAMENTE">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>DEPARTAMENTE</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:39 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPARTAMENT_ID" id="2103250C-4776-8AD7-839E-43B0CE97A453">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>DEPARTAMENTE</sourceObjSchema>
+<sourceObjName>DEPARTAMENT_ID</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUME_DEPARTAMENT" id="7D2B2192-7D9D-7276-044A-43603BC61343">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>DEPARTAMENTE</sourceObjSchema>
+<sourceObjName>NUME_DEPARTAMENT</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58C0D5A9-76BB-F9C9-BA7E-D5E1F7DC452A" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="DEPARTAMENTE_PK">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>SYS_C007636</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:42 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2103250C-4776-8AD7-839E-43B0CE97A453"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

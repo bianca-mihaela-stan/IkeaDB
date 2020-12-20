@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ZONE" directorySegmentName="seg_0" id="B7CF0858-4C33-A2DA-2031-CE5EFE9B6260">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:40 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>4D45F1AD-9AF2-916B-EBB8-D8BAFD646425</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>447F4213-E2CF-78A2-B4DA-0DFB2C664A89</segment>
+<tableSpace>779F8AF7-48EA-A43F-8CDB-99BD7636169F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ZONA_ID" id="6AF9B3F9-C15F-0B4F-5B65-3119443071A1">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMAR" id="E81A81CC-5882-260A-A0DB-8F20C4F9FD07">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ZONE_PK" id="FC5ADFED-3EAE-AA37-F705-9FEE57BE0672">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:44 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>4D45F1AD-9AF2-916B-EBB8-D8BAFD646425</schemaObject>
+<segment>6D52CEC3-3FEA-2455-5B13-2674728382F4</segment>
+<tableSpace>779F8AF7-48EA-A43F-8CDB-99BD7636169F</tableSpace>
+<indexSegment>6D52CEC3-3FEA-2455-5B13-2674728382F4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

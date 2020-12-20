@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2EFC3351-F9EB-2E67-BC07-5B41A2887300" containerWithKeyObject="8AE59B69-C719-6556-E22B-0BBC1AEFA75E" localFKIndex="2BF0DD10-B61F-5A75-FC51-E839D1113DE0" name="FK1_VOUCHERE_COMENZI">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>FK1_VOUCHERE_COMENZI</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<referredTableLongName>NONADMIN.VOUCHERE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF30EA49-26F2-01CC-0E50-99C0BBC61272</referredTableID>
+<keyObject>288E203B-F6E0-9C87-D116-BF8CBE0A5542</keyObject>
+<referredKeyID>288E203B-F6E0-9C87-D116-BF8CBE0A5542</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VOUCHER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

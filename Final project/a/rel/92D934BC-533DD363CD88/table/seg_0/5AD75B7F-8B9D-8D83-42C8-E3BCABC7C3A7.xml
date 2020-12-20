@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AD75B7F-8B9D-8D83-42C8-E3BCABC7C3A7" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="DISCOUNTURI">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>DISCOUNTURI</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:39 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DISCOUNT_ID" id="0569281A-DD36-C235-2506-C01ECA9FC78F">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>DISCOUNTURI</sourceObjSchema>
+<sourceObjName>DISCOUNT_ID</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOARE" id="3797C993-0058-4628-5E3A-21102B2134CA">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>DISCOUNTURI</sourceObjSchema>
+<sourceObjName>VALOARE</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_INCEPUT" id="CA7D7A3F-DA39-44EA-22FB-43CFC6BE878D">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>DISCOUNTURI</sourceObjSchema>
+<sourceObjName>DATA_INCEPUT</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_FINAL" id="F47F257B-D611-65AF-271A-8088896299E3">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>DISCOUNTURI</sourceObjSchema>
+<sourceObjName>DATA_FINAL</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIE_ID" id="C128DB0F-3320-8F07-B777-94761A9C5431">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>DISCOUNTURI</sourceObjSchema>
+<sourceObjName>CATEGORIE_ID</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B92BC015-41A5-563A-70A8-C5A5508054AA" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="DISCOUNTURI_PK">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>SYS_C007583</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:42 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0569281A-DD36-C235-2506-C01ECA9FC78F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

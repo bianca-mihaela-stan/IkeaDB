@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TARI" directorySegmentName="seg_0" id="36038617-8C37-D2CF-4CE4-237293655612">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:40 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>4D45F1AD-9AF2-916B-EBB8-D8BAFD646425</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>447F4213-E2CF-78A2-B4DA-0DFB2C664A89</segment>
+<tableSpace>779F8AF7-48EA-A43F-8CDB-99BD7636169F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUME_TARA" id="4D67C2EE-9799-A991-D21C-230D70889308">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TARA_ID" id="A880F80F-CC8A-2817-2543-E043006F1347">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TARI_PK" id="B32653B0-BDC0-1C5F-81FF-DEC681FF08DD">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:44 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>4D45F1AD-9AF2-916B-EBB8-D8BAFD646425</schemaObject>
+<segment>6D52CEC3-3FEA-2455-5B13-2674728382F4</segment>
+<tableSpace>779F8AF7-48EA-A43F-8CDB-99BD7636169F</tableSpace>
+<indexSegment>6D52CEC3-3FEA-2455-5B13-2674728382F4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

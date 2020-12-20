@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF30EA49-26F2-01CC-0E50-99C0BBC61272" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="VOUCHERE">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>VOUCHERE</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:40 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VOUCHER_ID" id="41B9535A-3C54-A196-9292-22268208DDDF">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>VOUCHERE</sourceObjSchema>
+<sourceObjName>VOUCHER_ID</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD" id="649C0FAA-D850-9CB3-DA41-04691757506F">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>VOUCHERE</sourceObjSchema>
+<sourceObjName>COD</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOARE" id="1C66212B-6865-E7D9-5350-90B0367A3507">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>VOUCHERE</sourceObjSchema>
+<sourceObjName>VALOARE</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_INCEPUT" id="8442A044-9B03-CB05-ED25-89C7261863CF">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>VOUCHERE</sourceObjSchema>
+<sourceObjName>DATA_INCEPUT</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_FINAL" id="F4CBA012-D397-64FF-CB3A-BD668862DAA0">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>VOUCHERE</sourceObjSchema>
+<sourceObjName>DATA_FINAL</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="288E203B-F6E0-9C87-D116-BF8CBE0A5542" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="VOUCHERE_PK">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>SYS_C007584</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:42 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41B9535A-3C54-A196-9292-22268208DDDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

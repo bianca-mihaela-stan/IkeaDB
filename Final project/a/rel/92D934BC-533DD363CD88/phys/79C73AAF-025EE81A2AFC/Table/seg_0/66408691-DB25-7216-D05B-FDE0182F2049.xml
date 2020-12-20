@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="COMENZI" directorySegmentName="seg_0" id="66408691-DB25-7216-D05B-FDE0182F2049">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:39 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>4D45F1AD-9AF2-916B-EBB8-D8BAFD646425</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6C16FA41-FE2B-2265-922A-0E8954DD867D</segment>
+<tableSpace>779F8AF7-48EA-A43F-8CDB-99BD7636169F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATA_LIVRARII" id="0BE048DD-454E-8797-E7E4-9066789FC876">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMANDA_ID" id="46165190-F17F-FAFD-4037-AA052ABE9B6C">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IN_MAGAZIN" id="583B3BEA-8DC8-5C76-5535-3D569199A2A8">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CASA_ID" id="977024EF-7EF7-0006-C8DF-9A288CE1DD9B">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANGAJAT_ID" id="B1DAE789-2CDA-A2D7-D667-EE9B788D4548">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_EFECTUARII" id="C06B4BB7-0B6A-DBCC-46CF-B457905F0A31">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_COMANDA" id="C94012B8-A58D-D9B8-C8A6-0BFBDAD99318">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="FB3822A7-31C3-2472-A808-BE1DD37C084F">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK3_COMENZI" id="5C6998C6-6AD5-BB94-4582-E1EFF778368B">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK2_COMENZI" id="92C8083B-046C-0F25-0791-F743EA0A3EA0">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK1_COMENZI" id="A1CC78D5-3F41-A83D-9974-F34E33DD5EE4">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMENZI_PK" id="AC4D9997-B597-551F-3F6D-A15C1E0B8B0D">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:44 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>4D45F1AD-9AF2-916B-EBB8-D8BAFD646425</schemaObject>
+<segment>9D16AEF5-A9A8-C3F4-56FF-BE6B14E58B4D</segment>
+<tableSpace>779F8AF7-48EA-A43F-8CDB-99BD7636169F</tableSpace>
+<indexSegment>9D16AEF5-A9A8-C3F4-56FF-BE6B14E58B4D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

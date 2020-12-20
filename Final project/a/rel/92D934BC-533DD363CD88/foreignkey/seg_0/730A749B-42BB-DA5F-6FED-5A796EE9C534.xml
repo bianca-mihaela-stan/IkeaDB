@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="730A749B-42BB-DA5F-6FED-5A796EE9C534" containerWithKeyObject="05EF6266-DB94-7166-D726-503310B56FFA" localFKIndex="675E63B3-6494-21AF-AF67-4264E53EA406" name="FK1_RAIOANE">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>FK1_RAIOANE</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<referredTableLongName>NONADMIN.ZONE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B7CF0858-4C33-A2DA-2031-CE5EFE9B6260</referredTableID>
+<keyObject>FC5ADFED-3EAE-AA37-F705-9FEE57BE0672</keyObject>
+<referredKeyID>FC5ADFED-3EAE-AA37-F705-9FEE57BE0672</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ZONA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

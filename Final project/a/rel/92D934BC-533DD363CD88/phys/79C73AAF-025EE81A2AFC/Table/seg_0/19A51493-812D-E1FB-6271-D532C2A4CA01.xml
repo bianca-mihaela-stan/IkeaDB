@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TRANSPORTURI" directorySegmentName="seg_0" id="19A51493-812D-E1FB-6271-D532C2A4CA01">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:40 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>4D45F1AD-9AF2-916B-EBB8-D8BAFD646425</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6C16FA41-FE2B-2265-922A-0E8954DD867D</segment>
+<tableSpace>779F8AF7-48EA-A43F-8CDB-99BD7636169F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ADRESA_FINISH" id="29325C25-00FE-4457-FCE5-0FD2610932C9">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSPORT_ID" id="38DCEC40-9E8D-3BEE-F80A-F72CE60F0AAE">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMANDA_ID" id="75A3FF53-ADEE-8A84-92A0-D012CA3EDA5F">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOFER_ID" id="A9CFA646-768E-E88B-2544-1E5D68BD0BB1">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADRESA_START" id="CF069023-7EA9-729A-705D-4BA12BCD261F">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK2_TRANSPORTURI" id="89809ED4-E18F-E23D-E078-EEA87B4B6892">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK3_TRANSPORTURI" id="B1EC7C2F-ED23-B8F0-3935-2814C649A7B5">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK4_TRANSPORTURI" id="CD19EF97-9D78-E8B7-F94E-0B985173D394">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK1_TRANSPORTURI" id="F667F474-2FE4-2D65-ED2C-3B524B212F10">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRANSPORTURI_PK" id="BCE1F85F-DFDF-1399-6811-CFF91CDA3221">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:44 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>4D45F1AD-9AF2-916B-EBB8-D8BAFD646425</schemaObject>
+<segment>9D16AEF5-A9A8-C3F4-56FF-BE6B14E58B4D</segment>
+<tableSpace>779F8AF7-48EA-A43F-8CDB-99BD7636169F</tableSpace>
+<indexSegment>9D16AEF5-A9A8-C3F4-56FF-BE6B14E58B4D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DISCOUNTURI" directorySegmentName="seg_0" id="5AD75B7F-8B9D-8D83-42C8-E3BCABC7C3A7">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:39 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>4D45F1AD-9AF2-916B-EBB8-D8BAFD646425</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6C16FA41-FE2B-2265-922A-0E8954DD867D</segment>
+<tableSpace>779F8AF7-48EA-A43F-8CDB-99BD7636169F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DISCOUNT_ID" id="0569281A-DD36-C235-2506-C01ECA9FC78F">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALOARE" id="3797C993-0058-4628-5E3A-21102B2134CA">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORIE_ID" id="C128DB0F-3320-8F07-B777-94761A9C5431">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_INCEPUT" id="CA7D7A3F-DA39-44EA-22FB-43CFC6BE878D">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_FINAL" id="F47F257B-D611-65AF-271A-8088896299E3">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DISCOUNTURI_PK" id="B92BC015-41A5-563A-70A8-C5A5508054AA">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:44 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>4D45F1AD-9AF2-916B-EBB8-D8BAFD646425</schemaObject>
+<segment>9D16AEF5-A9A8-C3F4-56FF-BE6B14E58B4D</segment>
+<tableSpace>779F8AF7-48EA-A43F-8CDB-99BD7636169F</tableSpace>
+<indexSegment>9D16AEF5-A9A8-C3F4-56FF-BE6B14E58B4D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

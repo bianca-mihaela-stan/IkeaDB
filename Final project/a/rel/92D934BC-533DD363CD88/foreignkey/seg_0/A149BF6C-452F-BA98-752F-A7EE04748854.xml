@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A149BF6C-452F-BA98-752F-A7EE04748854" containerWithKeyObject="DF40CAEC-E3C1-B1CC-4C74-C7BC2B90B0A4" localFKIndex="A4689A72-FC1B-4475-7961-16AF617CCE02" name="FK2_PRODUSE">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>FK2_PRODUSE</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<referredTableLongName>NONADMIN.GARANTII</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>966A6E72-3519-89A4-C6D0-BC327E246ED8</referredTableID>
+<keyObject>95930C9E-20D8-BB3E-B423-8D5D8982DCB1</keyObject>
+<referredKeyID>95930C9E-20D8-BB3E-B423-8D5D8982DCB1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>GARANTIE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

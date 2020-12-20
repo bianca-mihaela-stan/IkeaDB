@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AE59B69-C719-6556-E22B-0BBC1AEFA75E" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="VOUCHERE_COMENZI">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>VOUCHERE_COMENZI</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:40 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VOUCHER_ID" id="68E49320-CABC-4F71-4A53-F92CCE2788BF">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>VOUCHERE_COMENZI</sourceObjSchema>
+<sourceObjName>VOUCHER_ID</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EFC3351-F9EB-2E67-BC07-5B41A2887300" referredColumn="41B9535A-3C54-A196-9292-22268208DDDF"/>
+</associations>
+</Column>
+<Column name="COMANDA_ID" id="E4759AA9-5D87-509B-8535-09E864595A5A">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>VOUCHERE_COMENZI</sourceObjSchema>
+<sourceObjName>COMANDA_ID</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:41 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7980BBE-7303-13B5-94C6-58F36F8607FD" referredColumn="46165190-F17F-FAFD-4037-AA052ABE9B6C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A94A4E49-4AAF-6AE4-757F-202F66A8A106" schemaObject="4D45F1AD-9AF2-916B-EBB8-D8BAFD646425" name="VOUCHERE_COMENZI_PK">
+<sourceConnName>proiect_nonadmin</sourceConnName>
+<sourceObjSchema>NONADMIN</sourceObjSchema>
+<sourceObjName>SYS_C007609</sourceObjName>
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:42 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68E49320-CABC-4F71-4A53-F92CCE2788BF"/>
+<colUsage columnID="E4759AA9-5D87-509B-8535-09E864595A5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BF0DD10-B61F-5A75-FC51-E839D1113DE0" name="FK1_VOUCHERE_COMENZI">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68E49320-CABC-4F71-4A53-F92CCE2788BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C835A555-AEC0-0302-7448-08C95C639944" name="FK2_VOUCHERE_COMENZI">
+<createdBy>Bianca</createdBy>
+<createdTime>2020-12-20 11:59:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4759AA9-5D87-509B-8535-09E864595A5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
