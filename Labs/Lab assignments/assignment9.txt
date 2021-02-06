@@ -1,0 +1,74 @@
+--procedura
+
+create or replace procedure p_bms
+    (v_cod employees.employee_id%type)
+is
+v_nr number;
+type tablou_indexat is table of employees%rowtype index by pls_integer;
+info tablou_indexat;
+v_bool number;
+v_sal number;
+begin
+    dbms_output.put_line('----------------------------------------');
+    dbms_output.put_line('Pentru angajatul: ' || v_cod);
+    dbms_output.put_line('----------------------------------------');
+    
+    --v_nr imi trebuie ca sa inserez in info_bms
+    select count(*)
+    into v_nr
+    from emp_bms
+    where manager_id=v_cod;
+
+    --in into pun liniile corespunzatoare tuturor angajatilor care il au pe v_cod ca manager
+    select *
+    bulk collect into info
+    from emp_bms
+    where manager_id=v_cod;
+    
+    --inserez aceasta cerere in info_bms
+    insert into info_bms values (user, sysdate, 'select employee_id bulk collect into info from employees where manager_id=' || v_cod, v_nr, 'Fara eroare');
+    
+    for i in info.first..info.last loop
+        --afisez pe ecran angajatii lui v_cod
+        dbms_output.put_line(info(i).employee_id);
+        
+        --in v_sal pun salariul initial al angajatului
+        select salary
+        into v_sal
+        from employees
+        where employee_id=info(i).employee_id;
+        --insert into info_bms values (user, sysdate, 'select salary into v_sal from employees where employee_id=' || info(i).employee_id, 0, 'Fara eroare');
+        
+	--daca inca nu i-a fost marit salariul
+        if info(i).salary=v_sal then
+            update emp_bms
+            set salary=salary*1.1
+            where employee_id=info(i).employee_id;
+            
+	    --inserez si aceasta cerere in info_bms
+            --insert into info_bms values (user, sysdate, 'update emp_bms set salary=salary*1.1 where employee_id=' || info(i).employee_id, 0, 'Fara eroare');
+        end if;
+        
+    end loop;
+
+    --apelez procedura p_bms pentru fiecare din angajatii lui v_cod pentru ca scrie ca marim salariul si celor manageriati indirect de v_cod
+    for i in info.first..info.last loop
+        p_bms(info(i).employee_id);
+    end loop;
+
+    exception
+    when no_data_found then
+        dbms_output.put_line('Nu exista manageri cu codul dat');
+        insert into info_bms values (user, sysdate, 'select employee_id bulk collect into info from employees where manager_id=' || v_cod, v_nr, 'Nu exista manageri cu codul dat');
+    when others then
+        dbms_output.put_line('Alta eroare');
+        insert into info_bms values (user, sysdate, 'select employee_id bulk collect into info from employees where manager_id=' || v_cod, -1, 'Alta eroare');
+end p_bms;
+
+
+--apelarea
+declare
+begin
+    p_bms(100);
+end;
+/
