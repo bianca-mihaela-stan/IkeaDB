@@ -1,6 +1,6 @@
 # IkeaDB
 
-This project was built during a Database management systems course. The database built imulates the activity of a furniture shop which, in the context of the pandemic, has improved its online platform. The database contains 25 entities with **randomly generated data entries**. I have implemented various features to help the users, such as:
+This project was built during a Database management systems course. The database built simulates the activity of a furniture shop which, in the context of the pandemic, has improved its online platform. The database contains 25 entities with **randomly generated data entries**. I have implemented various features to help the users, such as:
 - a function that takes the `id` of a product A and returns the **exact locations** in the shop of all the components of product A
 - an algorithm that makes recommendations for every user based on their **previous purchases**
 - an algorithm that makes recommendations to the user based on the product they are currently looking at, considering the **purchase patterns of all the customers**
