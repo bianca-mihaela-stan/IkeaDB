@@ -10,6 +10,7 @@ This project was built during a Database management systems course. The database
 - much more
 
 ### Technologies used:
+- PL/SQL
 - Oracle Database o18g
 - Oracle SQL Developer
 - Oracle Database Express Edition
